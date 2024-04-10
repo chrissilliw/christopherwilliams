@@ -1,3 +1,5 @@
+import Projects from "@/components/Projects";
+import SectionContainer from "@/components/SectionContainer";
 import Skills from "@/components/Skills";
 import Image from "next/image";
 
@@ -37,13 +39,12 @@ export default function Home() {
       </div>
 
       {/* CONTAINER*/}
-      <div className=" lg:flex-row py-10 px-4 sm:px-8 md:px-12 lg:20 xl:px-48">
-        <h2 className="py-5 text-xl">Kunskaper inom</h2>
-        <div className="flex">
-          <Skills />
-          <div className="w-1/2 h-20 bg-red-400"></div>
-        </div>
-      </div>
+      <SectionContainer>
+        <Skills />
+      </SectionContainer>
+      <SectionContainer>
+        <Projects />
+      </SectionContainer>
     </>
   );
 }

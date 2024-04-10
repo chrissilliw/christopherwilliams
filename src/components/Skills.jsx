@@ -19,7 +19,8 @@ const Skills = () => {
   ];
   return (
     <>
-      <div className="flex flex-wrap gap-3 w-1/2">
+      <h2 className="py-5 text-xl">Kunskaper inom</h2>
+      <div className="flex flex-wrap gap-3 w-3/5">
         {skills.map((skill) => (
           <div className="py-1 px-2 justify-center rounded bg-black text-white">
             {skill}
