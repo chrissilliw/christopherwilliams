@@ -2,6 +2,7 @@ import Projects from "@/components/Projects";
 import SectionContainer from "@/components/SectionContainer";
 import Skills from "@/components/Skills";
 import Image from "next/image";
+import { HiDownload } from "react-icons/hi";
 
 export default function Home() {
   return (
@@ -28,8 +29,9 @@ export default function Home() {
             webbapplikationer.
           </p>
           <div className="w-full flex gap-4">
-            <button className="px-4 py-3 rounded-lg ring-1 ring-black bg-black text-white">
-              Se min portfolio
+            <button className="flex items-center px-4 py-3 gap-2 rounded-lg ring-1 ring-black bg-black text-white">
+              Ladda ner CV
+              <HiDownload />
             </button>
             <button className="px-4 py-3 rounded-lg ring-1 ring-black bg-black text-white">
               Kontakta mig

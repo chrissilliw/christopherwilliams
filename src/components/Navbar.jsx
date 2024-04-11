@@ -67,8 +67,8 @@ const Navbar = () => {
     { url: "/kontakt", title: "Kontakt" },
   ];
   return (
-    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:20 xl:px-48">
-      <div className="hiddden md:flex">
+    <div className="fixed top-5 left-1/2 transform -translate-x-1/2 h-16 w-[90%] flex items-center justify-between rounded-full shadow-lg shadow-black/[0.03] px-4 sm:px-8 md:px-12 lg:20 xl:px-48 bg-opacity-95 bg-white">
+      <div className="hidden md:flex">
         <Link href="/">Logo</Link>
       </div>
       <div className="hidden md:flex gap-4">

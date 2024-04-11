@@ -8,14 +8,14 @@ const Projects = () => {
     {
       title: "Diamonds For You",
       description:
-        "Diamond For You är en webbshop utvecklad med Parcel och TypeScript. Projektet erbjuder ett användarvänligt och responsivt gränssnitt där användare kan bläddra bland företagets fiktiva diamantprodukter och genomföra köpprocessen med hjälp av kundvagn och kassa.",
+        "Diamond For You är en webbshop utvecklad med Parcel och TypeScript. Projektet erbjuder ett användarvänligt och responsivt gränssnitt. ",
       tags: ["Parcel", "React", "Typescript", "Bootstrap"],
       imageURL: diamondsForYouImg,
     },
     {
       title: "Pancakes",
       description:
-        "En bokningsapp för en fiktiv pannkaksrestaurang, utvecklad med React och TypeScript. Appen innehåller landningssida, bokningssida samt en adminsida för restaurangens personal att hantera bokningar.",
+        "En bokningsapp för en fiktiv pannkaksrestaurang, utvecklad med React och TypeScript. Appen innehåller landningssida, bokningssida samt en adminsida.",
       tags: ["React", "Typescript", "styled components"],
       imageURL: pancakesImg,
     },
