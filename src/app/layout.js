@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { roboto_font } from "@/utils/fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,13 +13,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <div className="w-screen h-screen bg-gradient-to-b from-blue-50 to-red-100">
-          <div className="h-24">
-            <Navbar />
-          </div>
-          <div className="h-[calc(100vh-6rem)]">{children}</div>
+    <html lang="en" className="!scroll-smooth">
+      <body className={`${inter.className} ${roboto_font}`}>
+        <div className="w-screen h-auto bg-[#F8F7F1]">
+          <Navbar />
+          {children}
           <Footer />
         </div>
       </body>
