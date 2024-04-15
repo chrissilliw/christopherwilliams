@@ -1,10 +1,21 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { roboto_font } from "@/utils/fonts";
+import { Roboto, Lato } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700"],
+  display: "swap",
+  variable: "--font-roboto",
+});
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "700", "900"],
+  display: "swap",
+  variable: "--font-lato",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -13,8 +24,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="!scroll-smooth">
-      <body className={`${inter.className} ${roboto_font}`}>
+    <html
+      lang="en"
+      className={`!scroll-smooth  overflow-x-hidden ${roboto.variable} ${lato.variable}`}
+    >
+      {/* <body className={`${inter.className}`}> */}
+      <body>
         <div className="w-screen h-auto bg-[#F8F7F1]">
           <Navbar />
           {children}

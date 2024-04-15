@@ -17,7 +17,7 @@ const Navbar = () => {
     opened: {
       width: 20,
       rotate: 45,
-      backgroundColor: "rgb(255, 255, 255)",
+      // backgroundColor: "rgb(255, 255, 255)",
     },
   };
   const centerVariants = {
@@ -36,7 +36,7 @@ const Navbar = () => {
     opened: {
       width: 20,
       rotate: -45,
-      backgroundColor: "rgb(255, 255, 255)",
+      // backgroundColor: "rgb(255, 255, 255)",
     },
   };
 
@@ -67,7 +67,8 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-1/2 transform -translate-x-1/2 h-[70px] w-screen flex z-20">
       <div className="absolute top-5 left-1/2 transform -translate-x-1/2 h-[70px] w-[90%] flex items-center justify-between rounded-full shadow-lg shadow-black/[0.03] px-4 sm:px-8 md:px-12 lg:20 xl:px-10 bg-opacity-90 bg-white hover:bg-opacity-[.98] transition duration-200 z-20">
-        <div className="hidden md:flex">
+        {/* LOGO CONTAINER */}
+        <div className="flex">
           <Link href="#hem">
             <Image
               src="/logos/cc-logo-black.svg"
@@ -77,12 +78,13 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="hidden md:flex gap-4">
+        {/* NAVBAR LINKS CONTAINER */}
+        <div className="hidden md:flex gap-12">
           {links.map((link) => (
             <NavLink link={link} key={link.title} />
           ))}
         </div>
-        <div className="flex gap-4">
+        <div className="hidden md:flex gap-4">
           <Link href="">
             <Image
               src="/logos/github.svg"
@@ -100,6 +102,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
+        {/* HAMBURGER BUTTON CONTAINER */}
         <div className="md:hidden">
           <button
             className="w-10 h-4 flex flex-col justify-between z-50 relative"
@@ -134,6 +137,7 @@ const Navbar = () => {
             <motion.div
               variants={listItemVariants}
               className=""
+              onClick={() => setOpen(!open)}
               key={link.title}
             >
               <Link href={link.url}>{link.title}</Link>

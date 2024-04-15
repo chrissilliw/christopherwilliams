@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import HeaderSection from "@/components/HeaderSection";
 import Projects from "@/components/Projects";
 import SectionContainer from "@/components/SectionContainer";
+import SectionContainerFullWidth from "@/components/SectionContainerFullWidth";
 import SectionContainerWhite from "@/components/SectionContainerWhite";
 import Skills from "@/components/Skills";
 
@@ -15,9 +16,9 @@ export default function Home() {
         <About />
         <Skills />
       </SectionContainerWhite>
-      <SectionContainer>
+      <SectionContainerFullWidth>
         <Projects />
-      </SectionContainer>
+      </SectionContainerFullWidth>
       <SectionContainerWhite>
         <Contact />
       </SectionContainerWhite>

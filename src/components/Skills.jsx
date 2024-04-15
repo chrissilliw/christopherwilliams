@@ -6,7 +6,7 @@ const Skills = () => {
       <div className="">
         <div className="flex flex-wrap py-10 mx-auto justify-center gap-3 w-4/5">
           {skills.map((skill) => (
-            <div className="py-2 px-3 justify-center rounded-lg bg-black text-white">
+            <div className="py-2 px-3 justify-center rounded-lg bg-green-700 text-white">
               {skill}
             </div>
           ))}
