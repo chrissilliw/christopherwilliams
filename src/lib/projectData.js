@@ -27,7 +27,7 @@ export const projectData = [
     title: "Movie App",
     description:
       "En webbapplikation som innehåller information om filmer och teveserier. ",
-    tags: ["NextJS", "Typescript", "Socket.io", "Tailwind CSS", "Material.UI"],
+    tags: ["NextJS", "Typescript", "Tailwind CSS", "Material.UI"],
     imageURL: movieAppImg,
     imageLargeURL: movieAppLarge,
     url: "https://github.com/chrissilliw/movie-app",

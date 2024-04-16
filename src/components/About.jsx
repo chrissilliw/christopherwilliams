@@ -5,12 +5,12 @@ const About = () => {
     <>
       {/* CONTAINER */}
       <div
-        className="max-w-[500px] mx-auto py-4 px-7 flex flex-col justify-center item-center text-center scroll-mt-24"
+        className="max-w-[500px] mx-auto py-4 px-6 flex flex-col justify-center item-center text-center scroll-mt-24"
         id="om_mig"
       >
         {/* TEXT CONTAINER */}
         <h2 className="text-4xl py-4 font-lato font-semibold">Om Mig</h2>
-        <p className="font-roboto font-normal leading-8">
+        <p className="font-roboto font-normal leading-8 text-lg">
           Hej! Mitt namn är Christopher Williams. Jag är tvåbarnspappa och
           student på Medieinstitutet som läser Webbutveckling inom e-handel. Jag
           har en passion för data och webb och försöker hela tiden utvecklas och
