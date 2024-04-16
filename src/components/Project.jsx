@@ -51,8 +51,8 @@ const Project = ({ project }) => {
           }}
           onClick={swapRight}
         >
-          <section className=" bg-gray-100  border border-black/5 mb-8 overflow-hidden sm:pr-8 relative rounded-lg sm:h-[22rem] group-even:pl-8 hover:bg-gray-200 transition">
-            <div className="group-even:ml-[18rem] pt-4 pb-8 px-5 flex flex-col h-full sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] ">
+          <section className="w-[90%] mx-auto bg-gray-100  border border-black/5 mb-8 overflow-hidden sm:pr-8 relative rounded-lg sm:h-[22rem] group-even:pl-8 hover:bg-gray-200 transition">
+            <div className="group-even:ml-[18rem] pt-4 pb-8 px-5 flex flex-col h-full sm:pl-10 sm:pr-2 sm:pt-10 max-w-[50%] ">
               <h3 className="text-2xl font-semibold">{title}</h3>
               <p className="mt-2 leading-relaxed">{description}</p>
               <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
@@ -70,7 +70,7 @@ const Project = ({ project }) => {
               src={imageURL}
               alt={title}
               quality={95}
-              className="absolute top-12 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
+              className="absolute top-12 -right-40 w-[24rem] md:w-[28.25rem] rounded-t-lg shadow-2xl 
             transition ease-in-out duration-300
             group-hover: scale-[1.05]
             group-hover:-translate-x-3 

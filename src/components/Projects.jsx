@@ -4,7 +4,7 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <>
-      <div className="scroll-mt-28 " id="projekt">
+      <div className="scroll-mt-28 flex flex-col" id="projekt">
         <h2 className="py-4 text-center text-4xl font-lato font-semibold z-0">
           Projekt
         </h2>

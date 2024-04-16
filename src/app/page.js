@@ -7,6 +7,7 @@ import SectionContainer from "@/components/SectionContainer";
 import SectionContainerFullWidth from "@/components/SectionContainerFullWidth";
 import SectionContainerWhite from "@/components/SectionContainerWhite";
 import Skills from "@/components/Skills";
+import Skills2 from "@/components/Skills2";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Header />
       <SectionContainerWhite>
         <About />
-        <Skills />
+        <Skills2 />
       </SectionContainerWhite>
       <SectionContainerFullWidth>
         <Projects />
