@@ -126,7 +126,7 @@ const Header = () => {
           <div className="bg-yellow-500 p-4 rounded-full">
             <FaDev className="text-white w-[20px] h-[20px]" />
           </div>
-          <div className="font-lato">Fullstack</div>
+          <div className="font-roboto">Frontendutvecklare</div>
         </div>
         <div className="px-5 py-3  flex flex-1 items-center gap-2 border rounded-xl shadow-lg shadow-black/[0.03]">
           <div className="bg-orange-400 p-4 rounded-full">
