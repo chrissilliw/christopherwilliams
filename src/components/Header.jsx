@@ -25,18 +25,38 @@ const Header = () => {
           </h1>
         </motion.div>
 
-        <div className="flex flex-col md:flex-row gap-3 mt-8">
+        <div className="flex flex-col md:flex-row gap-3 mt-8 xl:hidden">
           <Link href="#kontakt">
-            <div className="px-5 py-3 flex items-center gap-2 rounded-full bg-slate-900 text-[#F8F7F1] shadow-xl shadow-black/[0.09]">
+            <motion.div
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: 0.45,
+                duration: 0.2,
+                type: "spring",
+                stiffness: 100,
+              }}
+              className="px-5 py-3 flex items-center gap-2 rounded-full bg-slate-900 text-[#F8F7F1] shadow-xl shadow-black/[0.09]"
+            >
               <p className="">Kontakta mig här</p>
               <FaLongArrowAltRight />
-            </div>
+            </motion.div>
           </Link>
 
-          <div className="px-5 py-3 flex items-center gap-2 rounded-full bg-white shadow-xl shadow-black/[0.09]">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: 0.55,
+              duration: 0.2,
+              type: "spring",
+              stiffness: 100,
+            }}
+            className="px-5 py-3 flex items-center gap-2 rounded-full bg-white shadow-xl shadow-black/[0.09]"
+          >
             <p className="font-medium">Ladda ner CV</p>
             <HiDownload />
-          </div>
+          </motion.div>
         </div>
 
         <div className="relative flex justify-center items-center max-w-[650px] w-full h-[500px] md:h-[550px]">
@@ -132,6 +152,40 @@ const Header = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="hidden xl:flex flex-col md:flex-row gap-3 mb-8">
+        <Link href="#kontakt">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: 0.45,
+              duration: 0.2,
+              type: "spring",
+              stiffness: 100,
+            }}
+            className="px-5 py-3 flex items-center gap-2 rounded-full bg-slate-900 text-[#F8F7F1] shadow-xl shadow-black/[0.09]"
+          >
+            <p className="">Kontakta mig här</p>
+            <FaLongArrowAltRight />
+          </motion.div>
+        </Link>
+
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.55,
+            duration: 0.2,
+            type: "spring",
+            stiffness: 100,
+          }}
+          className="px-5 py-3 flex items-center gap-2 rounded-full bg-white shadow-xl shadow-black/[0.09]"
+        >
+          <p className="font-medium">Ladda ner CV</p>
+          <HiDownload />
+        </motion.div>
       </div>
       <div className="max-w-[1000px] w-[80%] md:w-[90%] py-8 px-6 flex flex-col md:flex-row md:gap-4 justify-center rounded-3xl bg-white relative">
         <div className="px-8 py-3  flex flex-1 items-center gap-2 mb-5 md:mb-0 border rounded-xl shadow-lg shadow-black/[0.03]">
