@@ -3,7 +3,10 @@ import Image from "next/image";
 import { CgScreen } from "react-icons/cg";
 import { FaDev } from "react-icons/fa";
 import { MdOutlineDesignServices } from "react-icons/md";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { HiDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -17,10 +20,25 @@ const Header = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2, type: "spring", stiffness: 100 }}
         >
-          <h1 className="w-[100%] text-2xl lg:text-3xl lg:px-6 lg:py-4 xl:text-4xl px-6 xl:py-5 rounded-xl  font-lato font-bold leading-[5rem] text-[#0E2F3E] bg-white shadow-xl shadow-black/[0.09]">
+          <h1 className="w-[100%] text-2xl md:text-4xl md:px-6 md:py-4 xl:text-4xl px-6 xl:py-5 rounded-xl  font-lato font-bold leading-[5rem] text-[#0E2F3E] bg-white shadow-xl shadow-black/[0.09]">
             Hej, Mitt namn är Chris
           </h1>
         </motion.div>
+
+        <div className="flex flex-col md:flex-row gap-3 mt-8">
+          <Link href="#kontakt">
+            <div className="px-5 py-3 flex items-center gap-2 rounded-full bg-slate-900 text-[#F8F7F1] shadow-xl shadow-black/[0.09]">
+              <p className="">Kontakta mig här</p>
+              <FaLongArrowAltRight />
+            </div>
+          </Link>
+
+          <div className="px-5 py-3 flex items-center gap-2 rounded-full bg-white shadow-xl shadow-black/[0.09]">
+            <p className="font-medium">Ladda ner CV</p>
+            <HiDownload />
+          </div>
+        </div>
+
         <div className="relative flex justify-center items-center max-w-[650px] w-full h-[500px] md:h-[550px]">
           {/* REACT IMAGE CONTAINER */}
           <motion.div
