@@ -6,7 +6,7 @@ const About = () => {
     <>
       {/* CONTAINER */}
       <div
-        className="max-w-[600px] mx-auto py-4 px-6 flex flex-col justify-center item-center text-center scroll-mt-24"
+        className="max-w-[300px] mx-auto py-4 px-6 flex flex-col justify-center item-center text-center scroll-mt-24"
         id="om_mig"
       >
         {/* TEXT CONTAINER */}

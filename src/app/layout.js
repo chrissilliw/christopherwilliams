@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       className={`!scroll-smooth  overflow-x-hidden ${roboto.variable} ${lato.variable}`}
     >
       {/* <body className={`${inter.className}`}> */}
-      <body>
+      <body className="overflow-x-hidden">
         <div className="w-screen h-auto bg-[#F8F7F1]">
           <Navbar />
           {children}
