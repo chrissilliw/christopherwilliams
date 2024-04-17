@@ -17,7 +17,7 @@ const Header = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2, type: "spring", stiffness: 100 }}
         >
-          <h1 className="w-[100%] text-3xl xl:text-4xl px-6 xl:py-5 rounded-2xl  font-lato font-bold leading-[5rem] text-[#0E2F3E] bg-white shadow-xl shadow-black/[0.09]">
+          <h1 className="w-[100%] text-2xl lg:text-3xl lg:px-6 lg:py-4 xl:text-4xl px-6 xl:py-5 rounded-xl  font-lato font-bold leading-[5rem] text-[#0E2F3E] bg-white shadow-xl shadow-black/[0.09]">
             Hej, Mitt namn är Chris
           </h1>
         </motion.div>
