@@ -16,27 +16,27 @@ import mysqlLogo from "/public/logos/development/icons8-mysql.svg";
 import expressLogo from "/public/logos/development/icons8-express-js.svg";
 import graphqlLogo from "/public/logos/development/icons8-graphql.svg";
 
-export const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React.js",
-  "Next.js",
-  "SCSS",
-  "Tailwind CSS",
-  "Node.js",
-  "UX/UI",
-  "Figma",
-  "Adobe XD",
-  "Git",
-  "php",
-  "MongoDB",
-  "MySQL",
-  "Express",
-  "GraphQL",
-  "Apollo",
-];
+// export const skills = [
+//   "HTML",
+//   "CSS",
+//   "JavaScript",
+//   "TypeScript",
+//   "React.js",
+//   "Next.js",
+//   "SCSS",
+//   "Tailwind CSS",
+//   "Node.js",
+//   "UX/UI",
+//   "Figma",
+//   "Adobe XD",
+//   "Git",
+//   "php",
+//   "MongoDB",
+//   "MySQL",
+//   "Express",
+//   "GraphQL",
+//   "Apollo",
+// ];
 
 export const skillsData = [
   {
