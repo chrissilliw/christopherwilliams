@@ -18,7 +18,7 @@ const About = () => {
           UX/UI, strävar jag efter att skapa tekniskt robusta och
           användarvänliga lösningar.
         </p>
-        <p>
+        <p className="font-roboto font-normal leading-8 text-lg">
           Jag har arbetat som frontendutvecklare och webbdesigner för
           e-handelssajten By Crea vilket har gett mig insikter i att leverera
           högkvalitativa webbapplikationer.
