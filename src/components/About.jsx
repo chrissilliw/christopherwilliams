@@ -6,7 +6,7 @@ const About = () => {
     <>
       {/* CONTAINER */}
       <div
-        className="max-w-[300px] mx-auto py-4 px-6 flex flex-col justify-center item-center text-center scroll-mt-24"
+        className="max-w-[600px] mx-auto py-4 px-6 flex flex-col justify-center item-center text-center scroll-mt-24"
         id="om_mig"
       >
         {/* TEXT CONTAINER */}
@@ -19,15 +19,6 @@ const About = () => {
           webbapplikationer och hemsidor. Dessutom är jag en väldigt trevlig
           kille och har lätt att komma in i nya team.
         </p>
-        {/* <div className="mt-8 w-max-[200px] flex justify-end">
-          <Image
-            src="/images/signature.jpg"
-            alt="Min signature"
-            width={200}
-            height={50}
-            className="object-contain"
-          />
-        </div> */}
       </div>
     </>
   );
