@@ -12,12 +12,16 @@ const About = () => {
         {/* TEXT CONTAINER */}
         <h2 className="text-4xl py-4 font-lato font-semibold">Om Mig</h2>
         <p className="font-roboto font-normal leading-8 text-lg">
-          Hej! Mitt namn är Christopher Williams. Jag är tvåbarnspappa och
-          student på Medieinstitutet som läser Webbutveckling inom e-handel. Jag
-          har en passion för data och webb och försöker hela tiden utvecklas och
-          lära mig mer för att skapa funktionsdugliga och användarvänliga
-          webbapplikationer och hemsidor. Dessutom är jag en väldigt trevlig
-          kille och har lätt att komma in i nya team.
+          Som fullstackutvecklare med inriktning på webbplattformar, erbjuder
+          jag en mångsidig kompetens inom både frontend och backend. Med
+          färdigheter inom MERN-stacken, React, JavaScript, TypeScript och
+          UX/UI, strävar jag efter att skapa tekniskt robusta och
+          användarvänliga lösningar.
+        </p>
+        <p>
+          Jag har arbetat som frontendutvecklare och webbdesigner för
+          e-handelssajten By Crea vilket har gett mig insikter i att leverera
+          högkvalitativa webbapplikationer.
         </p>
       </div>
     </>
