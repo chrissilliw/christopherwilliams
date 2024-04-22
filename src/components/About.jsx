@@ -11,7 +11,7 @@ const About = () => {
       >
         {/* TEXT CONTAINER */}
         <h2 className="text-4xl py-4 font-lato font-semibold">Om Mig</h2>
-        <p className="font-roboto font-normal leading-8 text-lg">
+        <p className="font-roboto font-normal leading-8 text-lg mb-4">
           Som fullstackutvecklare med inriktning på webbplattformar, erbjuder
           jag en mångsidig kompetens inom både frontend och backend. Med
           färdigheter inom MERN-stacken, React, JavaScript, TypeScript och
