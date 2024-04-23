@@ -189,7 +189,13 @@ const Header = () => {
           }}
           className="px-5 py-3 flex items-center gap-2 rounded-full bg-white shadow-xl shadow-black/[0.09]"
         >
-          <p className="font-medium">Ladda ner CV</p>
+          <a
+            href="/documents/ChristopherWilliams_CV.pdf"
+            download="ChristopherWilliams_CV.pdf"
+            className="flex items-center gap-2 font-medium"
+          >
+            <p className="font-medium">Ladda ner CV</p>
+          </a>
           <HiDownload />
         </motion.div>
       </div>
