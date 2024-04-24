@@ -85,7 +85,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="hidden md:flex gap-4">
-          <Link href="https://github.com/chrissilliw">
+          <Link href="https://github.com/chrissilliw" target="_blank">
             <Image
               src="/logos/github.svg"
               alt="github logo"
@@ -93,7 +93,10 @@ const Navbar = () => {
               height={24}
             />
           </Link>
-          <Link href="https://www.linkedin.com/in/christopher-williams-8a1403116/">
+          <Link
+            href="https://www.linkedin.com/in/christopher-williams-8a1403116/"
+            target="_blank"
+          >
             <Image
               src="/logos/linkedin.svg"
               alt="linkedin logo"
