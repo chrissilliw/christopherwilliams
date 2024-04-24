@@ -88,7 +88,7 @@ const Project = ({ project }) => {
         </motion.div>
       </div>
       <div className={` ${sectionSwap ? "w-[50%] flex flex-col" : "hidden"}`}>
-        <div className="max-w-[700px] w-[90%] h-full mx-auto mb-4">
+        <div className="max-w-[700px] w-[90%] h-full mx-auto mb-8">
           <div className="flex items-center gap-2 mb-4">
             <div className="w-[40px] h-[40px] cursor-pointer">
               <IoIosArrowDropleft
@@ -99,7 +99,7 @@ const Project = ({ project }) => {
             <h4 className="uppercase text-xl">{title}</h4>
           </div>
           <div className="w-full">
-            <div className="relative m-h-[600px] mb-10">
+            <div className="relative m-h-[600px] mb-6">
               <Image
                 src={imageLarge}
                 alt={title}
@@ -114,6 +114,7 @@ const Project = ({ project }) => {
             <Link
               href={link}
               className="py-3 px-4 justify-center rounded-md border-solid border-2 border-green-700 text-green-700 uppercase hover:bg-green-700 hover:text-[#F8F7F1] transition"
+              target="_blank"
             >
               Se källkod
             </Link>
