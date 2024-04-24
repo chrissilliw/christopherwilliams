@@ -23,6 +23,9 @@ const About = () => {
           e-handelssajten By Crea vilket har gett mig insikter i att leverera
           högkvalitativa webbapplikationer.
         </p>
+        <div className="mt-4 flex justify-end">
+          <Image src="/signature.svg" alt="Signatur" width={200} height={0} />
+        </div>
       </div>
     </>
   );
