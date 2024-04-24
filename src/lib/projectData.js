@@ -28,7 +28,7 @@ export const projectData = [
     ],
     imageURL: workoutImg,
     imageLargeURL: workoutLarge,
-    url: "https://github.com/ToveLissner/TheRestaurant?",
+    url: "https://github.com/chrissilliw/workout-app",
   },
   {
     title: "Movie App",
