@@ -2,7 +2,7 @@ import diamondsForYouImg from "/public/projects/diamondsForYou.jpg";
 import workoutImg from "/public/projects/workout_app.png";
 import movieAppImg from "/public/projects/movieApp.jpg";
 import diamondsForYouLarge from "/public/projects/large/DiamondsForYou.jpg";
-import workoutLarge from "/public/projects/large/workoutApp.png";
+import workoutLarge from "/public/projects/large/WorkoutApp.png";
 import movieAppLarge from "/public/projects/large/movieApp.jpg";
 export const projectData = [
   {
