@@ -26,7 +26,6 @@ const Project = ({ project }) => {
 
   const swapRight = () => {
     setSectionSwap(true);
-    console.log(sectionSwap);
   };
 
   const swapLeft = () => {
